@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnePlus Mobile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        .container {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: #fff;
+        }
+        .product-img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .buy-button {
+            background-color: #e60012;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .buy-button:hover {
+            background-color: #b0000e;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>OnePlus 12 – Never Settle</h1>
+    </header>
+
+    <di
