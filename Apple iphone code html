@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apple iPhone 15</title>
+  <style>
+    .product-card {
+      width: 300px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 16px;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .product-price {
+      color: green;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="product-card">
+  <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-max-blue-titanium" alt="iPhone 15 Pro Max">
+  <div class="product-title">Apple iPhone 15 Pro Max</div>
+  <div class="product-price">₹1,59,900</div>
+  <p>6.7″ Super Retina XDR display, A17 Pro chip, 48MP camera, Titanium body.</p>
+  <button>Add to Cart</button>
+</div>
+
+</body>
+</html>
