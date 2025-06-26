@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phone Number with Realm Code</title>
+  <style>
+    label, select, input {
+      display: block;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>Enter Phone Number</h2>
+
+  <form>
+    <label for="countryCode">Country Code:</label>
+    <select id="countryCode" name="countryCode">
+      <option value="+1">🇺🇸 United States (+1)</option>
+      <option value="+44">🇬🇧 United Kingdom (+44)</option>
+      <option value="+91">🇮🇳 India (+91)</option>
+      <option value="+61">🇦🇺 Australia (+61)</option>
+      <option value="+81">🇯🇵 Japan (+81)</option>
+      <!-- Add more countries as needed -->
+    </select>
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="1234567890">
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    // Optional: You can add logic here to validate or display full phone number
+  </script>
+</body>
+</html>
