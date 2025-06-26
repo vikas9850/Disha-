@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ambulance Animation</title>
+  <style>
+    body {
+      background-color: #e0f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .ambulance {
+      position: relative;
+      width: 200px;
+      height: 100px;
+      background: white;
+      border: 4px solid #000;
+      border-radius: 10px;
+    }
+
+    .ambulance::before {
+      content: '';
+      position: absolute;
+      top: -20px;
+      left: 90px;
+      width: 20px;
+      height: 20px;
+      background: red;
+      animation: flash 1s infinite;
+    }
+
+    @keyframes flash {
+      0%, 100% { background-color: red; }
+      50% { background-color: white; }
+    }
+
+    .window {
+      position: absolute;
+      top: 20px;
+      left: 130px;
+      width: 50px;
+      height: 40px;
+      background: lightblue;
+      border: 2px solid #000;
+    }
+
+    .cross {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      width
