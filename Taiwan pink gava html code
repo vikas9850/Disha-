@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taiwan Pink Guava</title>
+  <style>
+    body {
+      background-color: #f8c8dc; /* pink guava shade */
+      font-family: Arial, sans-serif;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    img {
+      max-width: 400px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Taiwan Pink Guava</h1>
+  <p>Delicious, fragrant, and packed with nutrients!</p>
+  <img src="https://example.com/pink-guava.jpg" alt="Taiwan Pink Guava">
+</body>
+</html
