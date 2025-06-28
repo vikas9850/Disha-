@@ -5,6 +5,25 @@
 </head>
 <body>
   <h1>Select Your City</h1>
+  <form method="GET" action="/submit-city">
+    <label for="city">City:</label>
+    <select id="city" name="city" required>
+      <option value="" disabled selected>Select a city</option>
+      <option value="nyc">New York City (NYC)</option>
+      <option value="la">Los Angeles (LAX)</option>
+      <option value="chi">Chicago (CHI)</option>
+      <option value="hou">Houston (HOU)</option>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+  <title>Select a City</title>
+</head>
+<body>
+  <h1>Select Your City</h1>
   <form>
     <label for="city">City:</label>
     <select id="city" name="city">
