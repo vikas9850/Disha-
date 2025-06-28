@@ -26,4 +26,48 @@
 </head>
 <body>
     <div class="container">
+        <h1>Bottle Gourd (Lauki)</h1>
+        <img src="https://www.healthifyme.com/blog/wp-content/uploads/2021/03/Bottle-Gourd-1-1.jpg" alt="Bottle Gourd">
+        <p>
+            Bottle Gourd, also known as Lauki or Doodhi, is a popular vegetable in many Asian cuisines. It is light green in color and shaped like a bottle.
+        </p>
+        <p>
+            <strong>Health Benefits:</strong>
+            <ul>
+                <li>High in water content, keeping the body hydrated.</li>
+                <li>Rich in dietary fiber, aiding digestion.</li>
+                <li>Low in calories — ideal for weight management.</li>
+                <li>Helps in reducing stress and improving sleep quality.</li>
+            </ul>
+        </p>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bottle Gourd (Lauki) Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0fff0;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
         <h1>🍃
