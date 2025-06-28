@@ -25,12 +25,25 @@
       color: green;
       font-size: 16px;
     }
+    button {
+      background-color: #0071e3;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      font-size: 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #005bb5;
+    }
   </style>
 </head>
 <body>
 
 <div class="product-card">
-  <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-max-blue-titanium" alt="iPhone 15 Pro Max">
+  <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-max-blue-titanium-hero?wid=940&hei=1112&fmt=png-alpha&.v=1692925281846" alt="iPhone 15 Pro Max">
   <div class="product-title">Apple iPhone 15 Pro Max</div>
   <div class="product-price">₹1,59,900</div>
   <p>6.7″ Super Retina XDR display, A17 Pro chip, 48MP camera, Titanium body.</p>
