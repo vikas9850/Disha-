@@ -1,6 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+<head><!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Holy Book</title>
+    <style>
+        body {
+            font-family: "Georgia", serif;
+            background-color: #f8f9fa;
+            color: #222;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .chapter {
+            margin-bottom: 30px;
+        }
+        .chapter-title {
+            font-size: 1.8em;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        .verse {
+            margin: 5px 0;
+        }
+        .verse-number {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Holy Book</h1>
+        <p>Example Chapter and Verses</p>
+    </header>
+
+    <div class="chapter">
+        <div class="chapter-title">Chapter 1: In the Beginning</div>
+        <div class="verse"><span class="verse-number">1.</span> In the beginning God created the heaven and the earth.</div>
+        <div class="verse"><span class="verse-number">2.</span> And the earth was without form, and void; and darkness was upon the face of the deep...</div>
+    </div>
+
+    <div class="chapter">
+        <div class="chapter-title">Chapter 2: The Garden</div>
+        <div class="verse"><span class="verse-number">1.</span> Thus the heavens and the earth were finished, and all the host of them.</div>
+        <div class="verse"><span class="verse-number">2.</span> And on the seventh day God ended his work...</div>
+    </div>
+
+</body>
+</html>
+
     <meta charset="UTF-8">
     <title>Holy Book</title>
     <style>
