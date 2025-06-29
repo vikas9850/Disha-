@@ -33,4 +33,39 @@
         <p>This is a basic Platina-themed HTML template. Customize it as needed.</p>
     </main>
 </body>
-</html
+</html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platina Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        main {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Platina</h1>
+    </header>
+    <main>
+        <p>This is a basic Platina-themed HTML template. Customize it as needed.</p>
+    </main>
+</body>
+</html>
