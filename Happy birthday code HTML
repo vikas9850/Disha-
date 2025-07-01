@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      color: #fff;
+    }
+
+    .container {
+      margin-top: 15%;
+    }
+
+    h1 {
+      font-size: 4em;
+      animation: bounce 1s infinite alternate;
+      color: #ff4081;
+    }
+
+    p {
+      font-size: 1.5em;
+      color: #fff;
+    }
+
+    .balloons {
+      font-size: 3em;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes bounce {
+      to {
+        transform: translateY(-20px);
+      }
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-30px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="balloons">🎈🎉🎂🎁🎈</div>
+    <h1>Happy Birthday!</h1>
+    <p>Wishing you joy, laughter, and lots of cake! 🎂</p>
+    <div class="balloons">🎈🎉🎂🎁🎈</div>
+  </div>
+</body>
+</html>
