@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cat Clicker Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f8f8ff;
+      margin: 0;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    #score {
+      font-size: 24px;
+      margin: 20px 0;
+      color: #555;
+    }
+
+    #cat {
+      width: 200px;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.1s ease;
+    }
+
+    #cat:active {
+      transform: scale(1.1);
+    }
+
+    footer {
+      margin-top: 30px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐱 Cat Clicker Game</h1>
+  <div id="score">Score: 0</div>
+  <img id="cat" src="https://placekitten.com/300/300" alt="Click the Cat">
+
+  <footer>
+    Click the cat to increase your score!
+  </footer>
+
+  <script>
+    let score = 0;
+    const cat = document.getElementById('cat');
+    const scoreDisplay = document.getElementById('score');
+
+    cat.addEventListener('click', () => {
+      score++;
+      scoreDisplay.textContent = "Score: " + score;
+    });
+  </script>
+
+</body>
+</html>
