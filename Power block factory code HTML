@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Power Block Factory</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e2f;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .factory-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .factory-header h1 {
+      color: #4ade80;
+    }
+
+    .power-blocks {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 20px;
+    }
+
+    .block {
+      background-color: #2d2d3a;
+      border: 2px solid #4ade80;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .block:hover {
+      transform: scale(1.05);
+    }
+
+    .block h2 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .block p {
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="factory-header">
+    <h1>⚙️ Power Block Factory</h1>
+    <p>Manage your energy production blocks below</p>
+  </div>
+
+  <div class="power-blocks">
+    <div class="block">
+      <h2>Solar Block</h2>
+      <p>Generates 5 kWh/day</p>
+    </div>
+    <div class="block">
+      <h2>Wind Block</h2>
+      <p>Generates 8 kWh/day</p>
+    </div>
+    <div class="block">
+      <h2>Hydro Block</h2>
+      <p>Generates 12 kWh/day</p>
+    </div>
+    <div class="block">
+      <h2>Fusion Block</h2>
+      <p>Generates 50 kWh/day</p>
+    </div>
+  </div>
+
+</body>
+</html
