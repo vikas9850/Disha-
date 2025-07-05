@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>डॉ. बाबासाहेब आंबेडकर</title>
+  <style>
+    body {
+      font-family: 'Devanagari', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 20px;
+      padding: 20px;
+    }
+    h1 {
+      color: #0047ab;
+    }
+    .bio {
+      background-color: #e6f0ff;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    ul {
+      line-height: 1.6;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>डॉ. बाबासाहेब आंबेडकर</h1>
+  <div class="bio">
+    <p><strong>पूर्ण नाव:</strong> डॉ. भीमराव रामजी आंबेडकर</p>
+    <p><strong>जन्म:</strong> १४ एप्रिल १८९१, महू, मध्यप्रदेश</p>
+    <p><strong>मृत्यू:</strong> ६ डिसेंबर १९५६, दिल्ली</p>
+    <p><strong>ओळख:</strong> भारतीय संविधानाचे शिल्पकार, समाजसुधारक, अर्थतज्ज्ञ, विधिवेत्ता</p>
+  </div>
+
+  <h2>महत्वाचे कार्य</h2>
+  <ul>
+    <li>भारतीय संविधानाचे शिल्पकार</li>
+    <li>दलित, मागासवर्गीय आणि स्त्रियांच्या हक्कांसाठी लढा</li>
+    <li>शिक्षण व सामाजिक समतेचा प्रचार</li>
+    <li>बौद्ध धर्माचा स्वीकार आणि नवबौद्ध चळवळीचा आरंभ</li>
+  </ul>
+
+  <h2>महत्त्वाची पुस्तके</h2>
+  <ul>
+    <li>अनिहिलेशन ऑफ कास्ट</li>
+    <li>द बुद्ध अँड हिज धम्म</li>
+    <li>हू वेअर द शूद्राज?</li>
+    <li>द प्रॉब्लेम ऑफ रुपी</li>
+  </ul>
+
+  <footer>
+    <p>स्मृतिदिन: ६ डिसेंबर | भारतरत्न पुरस्कार: १९९० (मरणोत्तर)</p>
+  </footer>
+
+</body>
+</html
